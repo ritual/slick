@@ -1207,7 +1207,7 @@
 
     };
 
-    Slick.prototype.getNavigableIndexes = function() {
+    Slick.prototype.getNavigableIndexes = function(slidesToScroll) {
 
         var _ = this,
             breakPoint = 0,
